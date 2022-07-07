@@ -1,8 +1,11 @@
-# ficode
+# ficode - Finnish xkb layout for coding
 
 ## Quick Start
 
-- Clone repo `git clone https://github.com/krumeluu/ficode && cd ficode`
+- Clone repo
+```
+git clone https://github.com/krumeluu/ficode && cd ficode
+```
 - Stick the contents of `ficode` file to the end of `/usr/share/X11/xkb/symbols/fi` manually or by running
 ```
 sudo su -c 'cat ficode >> /usr/share/X11/xkb/symbols/fi'
@@ -23,8 +26,8 @@ sudo su -c 'cat ficode >> /usr/share/X11/xkb/symbols/fi'
 setxkbmap -layout fi variant -ficode
 ```
 
+### Default layer
 ```
-Default layer
 ,---,---,---,---,---,---,---,---,---,---,---,---,---,-------,
 | ` | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = | <-    |
 |---'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-----|
@@ -36,8 +39,10 @@ Default layer
 |----'-,-',--'--,'---'---'---'---'---'---'-,-'---',--,------|
 | ctrl |  | alt |                          |altgr |  | ctrl |
 '------'  '-----'--------------------------'------'  '------'
+```
 
-Shift layer
+### Shift layer
+```
 ,---,---,---,---,---,---,---,---,---,---,---,---,---,-------,
 | ~ | ! | " | # | $ | % | ^ | & | * | ( | ) | _ | + | <-    |
 |---'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-----|
@@ -49,8 +54,10 @@ Shift layer
 |----'-,-',--'--,'---'---'---'---'---'---'-,-'---',--,------|
 | ctrl |  | alt |                          |altgr |  | ctrl |
 '------'  '-----'--------------------------'------'  '------'
+```
 
-AltGr layer
+### AltGr layer
+```
 ,---,---,---,---,---,---,---,---,---,---,---,---,---,-------,
 | ~ | " | @ | £ | ¤ | ‰ | ^ |   |   |   | ° | ˇ |   | <-    |
 |---'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-----|
