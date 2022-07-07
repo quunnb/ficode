@@ -1,0 +1,62 @@
+partial alphanumeric_keys
+xkb_symbols "ficode" {
+
+    name[Group1]="Finnish (Code)";
+
+    key <TLDE> { [ grave,        asciitilde,  dead_tilde,      NoSymbol       ] };
+    key <AE01> { [ 1,            exclam,      dead_diaeresis,  NoSymbol       ] };
+    key <AE02> { [ 2,            quotedbl,    at,              NoSymbol       ] };
+    key <AE03> { [ 3,            numbersign,  sterling,        NoSymbol       ] };
+    key <AE04> { [ 4,            dollar,      currency,        NoSymbol       ] };
+    key <AE05> { [ 5,            percent,     permille,        NoSymbol       ] };
+    key <AE06> { [ 6,            asciicircum, dead_circumflex, NoSymbol       ] };
+    key <AE07> { [ 7,            ampersand,   NoSymbol,        NoSymbol       ] };
+    key <AE08> { [ 8,            asterisk,    NoSymbol,        NoSymbol       ] };
+    key <AE09> { [ 9,            parenleft,   NoSymbol,        NoSymbol       ] };
+    key <AE10> { [ 0,            parenright,  degree,          NoSymbol       ] };
+    key <AE11> { [ minus,        underscore,  dead_caron,      NoSymbol       ] };
+    key <AE12> { [ equal,        plus,        NoSymbol,        NoSymbol       ] };
+
+    key <AD01> { [ q,            Q,           NoSymbol,        NoSymbol       ] };
+    key <AD02> { [ w,            W,           NoSymbol,        NoSymbol       ] };
+    key <AD03> { [ e,            E,           EuroSign,        NoSymbol       ] };
+    key <AD04> { [ r,            R,           NoSymbol,        NoSymbol       ] };
+    key <AD05> { [ t,            T,           thorn,           THORN          ] };
+    key <AD06> { [ y,            Y,           NoSymbol,        NoSymbol       ] };
+    key <AD07> { [ u,            U,           NoSymbol,        NoSymbol       ] };
+    key <AD08> { [ i,            I,           NoSymbol,        NoSymbol       ] };
+    key <AD09> { [ o,            O,           oe,              OE             ] };
+    key <AD10> { [ p,            P,           NoSymbol,        NoSymbol       ] };
+    key <AD11> { [ bracketleft,  braceleft,   NoSymbol,        NoSymbol       ] };
+    key <AD12> { [ bracketright, braceright,  dead_acute,      NoSymbol       ] };
+
+    key <AC01> { [ a,            A,           aring,           Aring          ] };
+    key <AC02> { [ s,            S,           NoSymbol,        NoSymbol       ] };
+    key <AC03> { [ d,            D,           NoSymbol,        NoSymbol       ] };
+    key <AC04> { [ f,            F,           NoSymbol,        NoSymbol       ] };
+    key <AC05> { [ g,            G,           NoSymbol,        NoSymbol       ] };
+    key <AC06> { [ h,            H,           NoSymbol,        NoSymbol       ] };
+    key <AC07> { [ j,            J,           NoSymbol,        NoSymbol       ] };
+    key <AC08> { [ k,            K,           NoSymbol,        NoSymbol       ] };
+    key <AC09> { [ l,            L,           NoSymbol,        NoSymbol       ] };
+    key <AC10> { [ odiaeresis,   Odiaeresis,  NoSymbol,        NoSymbol       ] };
+    key <AC11> { [ adiaeresis,   Adiaeresis,  ae,              AE             ] };
+    key <BKSL> { [ apostrophe,   backslash,   dead_grave,      NoSymbol       ] };
+
+    key <LSGT> { [ less,         greater,     bar,             NoSymbol       ] };
+    key <AB01> { [ z,            Z,           ezh,             EZH            ] };
+    key <AB02> { [ x,            X,           multiply,        periodcentered ] };
+    key <AB03> { [ c,            C,           NoSymbol,        NoSymbol       ] };
+    key <AB04> { [ v,            V,           NoSymbol,        NoSymbol       ] };
+    key <AB05> { [ b,            B,           NoSymbol,        NoSymbol       ] };
+    key <AB06> { [ n,            N,           eng,             ENG            ] };
+    key <AB07> { [ m,            M,           mu,              emdash         ] };
+    key <AB08> { [ comma,        semicolon,   NoSymbol,        NoSymbol       ] };
+    key <AB09> { [ period,       colon,       NoSymbol,        NoSymbol       ] };
+    key <AB10> { [ slash,        question,    endash,          emdash         ] };
+
+    key <SPCE> { [ space,        space,       space,           U202F          ] };
+
+    include "kpdl(comma)"
+    include "level3(ralt_switch)"
+};
