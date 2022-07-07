@@ -41,7 +41,7 @@ xkb_symbols "ficode" {
     key <AC09> { [ l,            L,           NoSymbol,        NoSymbol       ] };
     key <AC10> { [ odiaeresis,   Odiaeresis,  NoSymbol,        NoSymbol       ] };
     key <AC11> { [ adiaeresis,   Adiaeresis,  ae,              AE             ] };
-    key <BKSL> { [ apostrophe,   backslash,   dead_grave,      NoSymbol       ] };
+    key <BKSL> { [ apostrophe,   question,    dead_grave,      NoSymbol       ] };
 
     key <LSGT> { [ less,         greater,     bar,             NoSymbol       ] };
     key <AB01> { [ z,            Z,           ezh,             EZH            ] };
@@ -53,10 +53,11 @@ xkb_symbols "ficode" {
     key <AB07> { [ m,            M,           mu,              emdash         ] };
     key <AB08> { [ comma,        semicolon,   NoSymbol,        NoSymbol       ] };
     key <AB09> { [ period,       colon,       NoSymbol,        NoSymbol       ] };
-    key <AB10> { [ slash,        question,    endash,          emdash         ] };
+    key <AB10> { [ slash,        backslash,   endash,          emdash         ] };
 
     key <SPCE> { [ space,        space,       space,           U202F          ] };
 
     include "kpdl(comma)"
     include "level3(ralt_switch)"
 };
+
