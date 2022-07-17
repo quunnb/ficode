@@ -23,7 +23,7 @@ sudo su -c 'cat ficode >> /usr/share/X11/xkb/symbols/fi'
 
 - Load keymap
 ```
-setxkbmap -layout fi variant -ficode
+setxkbmap -layout fi -variant ficode
 ```
 
 ### Default layer
