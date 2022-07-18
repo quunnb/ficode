@@ -56,8 +56,8 @@ xkb_symbols "ficode" {
     key <AB10> { [ slash,        backslash,   endash,          emdash         ] };
 
     key <SPCE> { [ space,        space,       space,           U202F          ] };
+    key <KPDL> { [ comma,        period,      semicolon,       colon          ] };
 
-    include "kpdl(comma)"
     include "level3(ralt_switch)"
 };
 
