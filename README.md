@@ -1,6 +1,12 @@
 # ficode - Finnish xkb layout for coding
 
-## Quick Start
+## :warning:
+- This hacky xkb setup has been surpassed by one enabled by [keyd](https://github.com/rvaiya/keyd) keyboard daemon.
+- If at any time xkb gets updated, all these changes to the system files will be overwritten.
+- keyd offers an easier way to work with multiple layers.
+- There are keyd config files and setup instructions in the [dotfiles](https://github.com/krumeluu/dotfiles/tree/main/.config/keyd) repo.
+
+## Quickstart
 
 - Clone repo
 ```
