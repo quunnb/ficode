@@ -5,7 +5,7 @@ xkb_symbols "ficode" {
 
     key <TLDE> { [ grave,        asciitilde,  dead_tilde,      NoSymbol       ] };
     key <AE01> { [ 1,            exclam,      dead_diaeresis,  NoSymbol       ] };
-    key <AE02> { [ 2,            quotedbl,    at,              NoSymbol       ] };
+    key <AE02> { [ 2,            question,    at,              NoSymbol       ] };
     key <AE03> { [ 3,            numbersign,  sterling,        NoSymbol       ] };
     key <AE04> { [ 4,            dollar,      currency,        NoSymbol       ] };
     key <AE05> { [ 5,            percent,     permille,        NoSymbol       ] };
@@ -41,7 +41,7 @@ xkb_symbols "ficode" {
     key <AC09> { [ l,            L,           NoSymbol,        NoSymbol       ] };
     key <AC10> { [ odiaeresis,   Odiaeresis,  NoSymbol,        NoSymbol       ] };
     key <AC11> { [ adiaeresis,   Adiaeresis,  ae,              AE             ] };
-    key <BKSL> { [ apostrophe,   question,    dead_grave,      NoSymbol       ] };
+    key <BKSL> { [ apostrophe,   quotedbl,    dead_grave,      NoSymbol       ] };
 
     key <LSGT> { [ less,         greater,     bar,             NoSymbol       ] };
     key <AB01> { [ z,            Z,           ezh,             EZH            ] };
