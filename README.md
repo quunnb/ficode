@@ -79,6 +79,6 @@ $ setxkbmap -config ficode-min.conf
 ```
 or
 ```
-$setxkbmap -config ficode-og.conf
+$ setxkbmap -config ficode-og.conf
 ```
 
