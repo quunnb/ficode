@@ -32,7 +32,7 @@
 '------'  '-----'--------------------------'------'  '------'
 ```
 
-### Shift layer ficode-orig
+### Shift layer ficode-og
 ```
 ,---,---,---,---,---,---,---,---,---,---,---,---,---,-------,
 | ~ | ! | ? | # | $ | % | ^ | & | * | ( | ) | _ | + | <-    |
@@ -67,16 +67,18 @@
 
 - Clone repo
 ```
-git clone https://github.com/krumeluu/ficode && cd ficode
+$ git clone https://github.com/krumeluu/ficode && cd ficode
 ```
 - Copy files
 ```
-sudo cp ficode /usr/share/X11/xkb/symbols/
+# cp ficode /usr/share/X11/xkb/symbols/
 ```
 - Load keymap
 ```
-setxkbmap -config ficode-min.conf
-# or
-setxkbmap -config ficode-og.conf
+$ setxkbmap -config ficode-min.conf
+```
+or
+```
+$setxkbmap -config ficode-og.conf
 ```
 
