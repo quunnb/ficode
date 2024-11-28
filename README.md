@@ -62,6 +62,9 @@
 '------'  '-----'--------------------------'------'  '------'
 ```
 
+### Ficode-pinky
+Ficode-og with ä and ö swapped.
+
 
 ## Quickstart
 
@@ -80,5 +83,9 @@ $ setxkbmap -config ficode-min.conf
 or
 ```
 $ setxkbmap -config ficode-og.conf
+```
+or
+```
+$ setxkbmap -config ficode-pinky.conf
 ```
 
