@@ -72,3 +72,13 @@ xkb_symbols "min" {
 
 };
 
+xkb_symbols "pinky" {
+
+    include "ficode"
+    name[Group1]="Finnish (Code-pinky)";
+
+    key <AC10> { [ adiaeresis,   Adiaeresis,  ae,              AE             ] };
+    key <AC11> { [ odiaeresis,   Odiaeresis,  NoSymbol,        NoSymbol       ] };
+
+};
+
