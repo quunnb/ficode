@@ -25,12 +25,12 @@ xkb_symbols "ficode" {
     key <AD06> { [ y,            Y,           yen,             NoSymbol       ] };
     key <AD07> { [ u,            U,           udiaeresis,      Udiaeresis     ] };
     key <AD08> { [ i,            I,           NoSymbol,        NoSymbol       ] };
-    key <AD09> { [ o,            O,           oe,              OE             ] };
+    key <AD09> { [ o,            O,           aring,           Aring          ] };
     key <AD10> { [ p,            P,           Greek_pi,        Greek_PI       ] };
     key <AD11> { [ bracketleft,  braceleft,   NoSymbol,        NoSymbol       ] };
     key <AD12> { [ bracketright, braceright,  dead_acute,      NoSymbol       ] };
 
-    key <AC01> { [ a,            A,           aring,           Aring          ] };
+    key <AC01> { [ a,            A,           Greek_alpha,     Greek_ALPHA    ] };
     key <AC02> { [ s,            S,           U00DF,           U1E9E          ] };
     key <AC03> { [ d,            D,           Greek_delta,     Greek_DELTA    ] };
     key <AC04> { [ f,            F,           NoSymbol,        NoSymbol       ] };
@@ -39,7 +39,7 @@ xkb_symbols "ficode" {
     key <AC07> { [ j,            J,           NoSymbol,        NoSymbol       ] };
     key <AC08> { [ k,            K,           Greek_kappa,     Greek_KAPPA    ] };
     key <AC09> { [ l,            L,           Greek_lambda,    Greek_LAMBDA   ] };
-    key <AC10> { [ odiaeresis,   Odiaeresis,  NoSymbol,        NoSymbol       ] };
+    key <AC10> { [ odiaeresis,   Odiaeresis,  oe,              OE             ] };
     key <AC11> { [ adiaeresis,   Adiaeresis,  ae,              AE             ] };
     key <BKSL> { [ apostrophe,   quotedbl,    dead_grave,      NoSymbol       ] };
 
@@ -61,17 +61,6 @@ xkb_symbols "ficode" {
     include "level3(ralt_switch)"
 };
 
-xkb_symbols "min" {
-
-    include "ficode"
-    name[Group1]="Finnish (Code-minimal)";
-
-    key <AE02> { [ 2,            quotedbl,    at,              NoSymbol       ] };
-    key <BKSL> { [ apostrophe,   backslash,   dead_grave,      NoSymbol       ] };
-    key <AB10> { [ slash,        question,    endash,          emdash         ] };
-
-};
-
 xkb_symbols "pinky" {
 
     include "ficode"
@@ -81,4 +70,3 @@ xkb_symbols "pinky" {
     key <AC11> { [ odiaeresis,   Odiaeresis,  NoSymbol,        NoSymbol       ] };
 
 };
-
