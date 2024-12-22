@@ -70,3 +70,21 @@ xkb_symbols "pinky" {
     key <AC11> { [ odiaeresis,   Odiaeresis,  NoSymbol,        NoSymbol       ] };
 
 };
+
+xkb_symbols "sym" {
+
+    include "ficode"
+    name[Group1]="Finnish (Code-symbol)";
+
+    key <AE01> { [ exclam,      1, exclamdown,      NoSymbol     ] };
+    key <AE02> { [ question,    2, at,              questiondown ] };
+    key <AE03> { [ numbersign,  3, sterling,        NoSymbol     ] };
+    key <AE04> { [ dollar,      4, currency,        NoSymbol     ] };
+    key <AE05> { [ percent,     5, permille,        NoSymbol     ] };
+    key <AE06> { [ asciicircum, 6, dead_circumflex, NoSymbol     ] };
+    key <AE07> { [ ampersand,   7, NoSymbol,        NoSymbol     ] };
+    key <AE08> { [ asterisk,    8, infinity,        NoSymbol     ] };
+    key <AE09> { [ parenleft,   9, NoSymbol,        NoSymbol     ] };
+    key <AE10> { [ parenright,  0, degree,          NoSymbol     ] };
+
+};

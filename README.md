@@ -74,6 +74,11 @@
 
 - `Ä` and `Ö` swapped: `Ä` is much more common than `Ö`
 
+### Symbol variant
+
+- Numbers are demoted to Shift layer
+
+
 ## Quickstart
 
 - Clone repo
