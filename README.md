@@ -92,7 +92,6 @@ $ git clone https://github.com/demiaus/ficode && cd ficode
 - Load keymap
 ```
 $ setxkbmap -config ficode.conf
-# or setxkbmap -config ficode-pinky.conf
 ```
 
 ### TODO:
