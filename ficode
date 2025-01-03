@@ -55,8 +55,6 @@ xkb_symbols "ficode" {
     key <AB09> { [ period,       colon,       dead_diaeresis,  NoSymbol       ] };
     key <AB10> { [ slash,        backslash,   endash,          emdash         ] };
 
-    key <SPCE> { [ space,        space,       space,           nobreakspace   ] };
-    key <KPDL> { [ comma,        period,      semicolon,       colon          ] };
 
     include "level3(ralt_switch)"
 };
@@ -86,5 +84,38 @@ xkb_symbols "sym" {
     key <AE08> { [ asterisk,    8, infinity,        NoSymbol     ] };
     key <AE09> { [ parenleft,   9, NoSymbol,        NoSymbol     ] };
     key <AE10> { [ parenright,  0, degree,          NoSymbol     ] };
+
+};
+
+
+xkb_symbols "colemak" {
+
+    include "ficode"
+    name[Group1]="Finnish (Code-colemak)";
+
+    key <AD03> { [ f,            F,          NoSymbol,     NoSymbol     ] };
+    key <AD04> { [ p,            P,          Greek_pi,     Greek_PI     ] };
+    key <AD05> { [ g,            G,          Greek_gamma,  Greek_GAMMA  ] };
+    key <AD06> { [ j,            J,          NoSymbol,     NoSymbol     ] };
+    key <AD07> { [ l,            L,          Greek_lambda, Greek_LAMBDA ] };
+    key <AD08> { [ u,            U,          udiaeresis,   Udiaeresis   ] };
+    key <AD09> { [ y,            Y,          yen,          NoSymbol     ] };
+    key <AD10> { [ adiaeresis,   Adiaeresis, ae,           AE           ] };
+    key <AD11> { [ bracketleft,  braceleft,  NoSymbol,     NoSymbol     ] };
+    key <AD12> { [ bracketright, braceright, dead_acute,   NoSymbol     ] };
+
+    key <AC02> { [ r,            R,          Greek_ro,     Greek_RO     ] };
+    key <AC03> { [ s,            S,          Greek_sigma,  Greek_SIGMA  ] };
+    key <AC04> { [ t,            T,          Greek_tau,    trademark    ] };
+    key <AC05> { [ d,            D,          Greek_delta,  Greek_DELTA  ] };
+    key <AC06> { [ h,            H,          Left,         NoSymbol     ] };
+    key <AC07> { [ n,            N,          Down,         NoSymbol     ] };
+    key <AC08> { [ e,            E,          Up,           NoSymbol     ] };
+    key <AC09> { [ i,            I,          Right,        NoSymbol     ] };
+    key <AC10> { [ o,            O,          aring,        Aring        ] };
+    key <AC11> { [ odiaeresis,   Odiaeresis, oe,           OE           ] };
+
+    key <AB06> { [ k,            K,          Greek_kappa,  Greek_KAPPA  ] };
+    key <AB07> { [ m,            M,          mu,           emdash       ] };
 
 };
