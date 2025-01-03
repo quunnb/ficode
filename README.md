@@ -104,7 +104,7 @@ exiting Vim).
 - Clone repo
 
 ```sh
-git clone https://github.com/demiaus/ficode && cd ficode
+git clone https://github.com/quunnb/ficode && cd ficode
 ```
 
 - Copy files
