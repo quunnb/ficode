@@ -4,13 +4,14 @@
 
 ### The Finnish QWERTY keyboard layout is horrible
 
-It's even horribler for writing code. Much of the most common symbols are on
+It's even horribler for writing code. Many of the most common symbols are on
 the AltGr layer behind some carpal tunnel acrobatics. The US QWERTY layout
 lacks `Å`, `Ä` and `Ö`.
 
-- The brackets are a bane in the ärse. Repeatedly pressing `AltGr` with our
-thumb while reaching for `7890` with the same hand to get `{[]}` is beyond
-uncomfortable. It's difficult to come up with a worse configuration.
+- On the Finnish layout the brackets are a bane in the ärse. Repeatedly
+pressing `AltGr` with our thumb while reaching for `7890` with the same hand to
+get `{[]}` is beyond uncomfortable. It's difficult to come up with a worse
+configuration.
 - `\` is as bad, sitting next to `0` on the `AltGr` layer
 - `$` is also on `AltGr`, under `4`. Instead on the Shift layer is this: `¤`.
 Well, it's a currency symbol, but when has anyone ever used this? (What do I
@@ -79,7 +80,7 @@ exiting Vim).
 
 ```ascii-art
 ,---,---,---,---,---,---,---,---,---,---,---,---,---,-------,
-| ~ | " | @ | £ | ¤ | ‰ | ^ |   |   |   | ° | ˇ |   | <-    |
+| ~ | ¡ | @ | £ | ¤ | ‰ | ^ |   | ∞ |   | ° | ˇ | ≠ | <-    |
 |---'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-----|
 | ->| | q | w | € | r | þ | y | u | i | å | p | [ | ' |     |
 |-----',--',--',--',--',--',--',--',--',--',--',--',--'|    |
