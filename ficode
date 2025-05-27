@@ -3,15 +3,15 @@ xkb_symbols "ficode" {
 
     name[Group1]="Finnish (Code)";
 
-    key <TLDE> { [ grave,        asciitilde,  dead_tilde,      NoSymbol       ] };
+    key <TLDE> { [ grave,        asciitilde,  dead_tilde,      onehalf        ] };
     key <AE01> { [ 1,            exclam,      exclamdown,      NoSymbol       ] };
     key <AE02> { [ 2,            question,    at,              questiondown   ] };
-    key <AE03> { [ 3,            numbersign,  sterling,        NoSymbol       ] };
-    key <AE04> { [ 4,            dollar,      currency,        NoSymbol       ] };
-    key <AE05> { [ 5,            percent,     permille,        NoSymbol       ] };
-    key <AE06> { [ 6,            asciicircum, dead_circumflex, NoSymbol       ] };
+    key <AE03> { [ 3,            numbersign,  sterling,        onethird       ] };
+    key <AE04> { [ 4,            dollar,      currency,        onequarter     ] };
+    key <AE05> { [ 5,            percent,     permille,        onefifth       ] };
+    key <AE06> { [ 6,            asciicircum, dead_circumflex, onesixth       ] };
     key <AE07> { [ 7,            ampersand,   NoSymbol,        NoSymbol       ] };
-    key <AE08> { [ 8,            asterisk,    infinity,        NoSymbol       ] };
+    key <AE08> { [ 8,            asterisk,    infinity,        oneeighth      ] };
     key <AE09> { [ 9,            parenleft,   NoSymbol,        NoSymbol       ] };
     key <AE10> { [ 0,            parenright,  degree,          NoSymbol       ] };
     key <AE11> { [ minus,        underscore,  dead_macron,     NoSymbol       ] };
@@ -20,7 +20,7 @@ xkb_symbols "ficode" {
     key <AD01> { [ q,            Q,           NoSymbol,        NoSymbol       ] };
     key <AD02> { [ w,            W,           NoSymbol,        NoSymbol       ] };
     key <AD03> { [ e,            E,           EuroSign,        NoSymbol       ] };
-    key <AD04> { [ r,            R,           Greek_ro,        Greek_RO       ] };
+    key <AD04> { [ r,            R,           squareroot,      cuberoot       ] };
     key <AD05> { [ t,            T,           Greek_tau,       trademark      ] };
     key <AD06> { [ y,            Y,           yen,             NoSymbol       ] };
     key <AD07> { [ u,            U,           udiaeresis,      Udiaeresis     ] };
